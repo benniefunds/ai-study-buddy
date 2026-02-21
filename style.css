@@ -1,0 +1,100 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c7be5;
+  margin-bottom: 25px;
+}
+
+.setup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.setup select, .setup button {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.setup button {
+  background: #2c7be5;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.setup button:hover {
+  background: #1a5fc1;
+}
+
+/* Chat area */
+#chat {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Messages */
+.message {
+  padding: 15px 20px;
+  border-radius: 12px;
+  max-width: 80%;
+  word-wrap: break-word;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.bot {
+  background: #e3f2fd;
+  align-self: flex-start;
+}
+
+.user {
+  background: #c8e6c9;
+  align-self: flex-end;
+}
+
+/* MCQ buttons */
+.mcq {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.mcq button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #e3f2fd;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.mcq button:hover {
+  background: #bbdefb;
+}
